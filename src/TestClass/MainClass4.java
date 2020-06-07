@@ -5,7 +5,7 @@ import Lessons.Music;
 import Student.StudentClass;
 
 public class MainClass4 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         StudentClass studentClass = new StudentClass("David", "Villa","England" );
 
