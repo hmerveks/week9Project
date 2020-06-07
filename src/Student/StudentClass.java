@@ -8,7 +8,7 @@ import java.util.LinkedHashMap;
 
 public class StudentClass extends SchoolLocation {
 
-    public StudentClass(String location) {
+    public StudentClass(String location) throws Exception {
         super(location);
     }
 
@@ -35,7 +35,7 @@ public class StudentClass extends SchoolLocation {
 
      */
 
-    public StudentClass( String username, String password, String studentSchoolLocation) {
+    public StudentClass( String username, String password, String studentSchoolLocation) throws Exception {
         super(studentSchoolLocation);
         this.username = username;
         this.password = password;

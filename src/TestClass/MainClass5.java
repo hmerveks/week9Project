@@ -7,7 +7,7 @@ import Student.StudentClass;
 import java.util.Scanner;
 
 public class MainClass5 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         StudentClass studentClass = new StudentClass("VanDijk", "Defend04","USA" );
 

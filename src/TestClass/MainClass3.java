@@ -6,7 +6,7 @@ import Student.StudentClass;
 
 public class MainClass3 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         StudentClass studentClass = new StudentClass("Gerard", "Captain2005","France" );
 
